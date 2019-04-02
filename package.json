@@ -1,0 +1,22 @@
+{
+  "name": "anysubdomain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "responder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobomurod/anySubdomainReply.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobomurod/anySubdomainReply/issues"
+  },
+  "homepage": "https://github.com/bobomurod/anySubdomainReply#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
