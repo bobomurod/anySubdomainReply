@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 
 app.get('/', function(req, res){
-    res.json({
-        message: "hello"
-    })
-})
+    res.send('Subdomain' + req.headers['x-subdomain'])
+});
 
-app.listen(3000);
+app.listen(3000, function(){
+    console.log("listning 3000");
+});
